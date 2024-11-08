@@ -1,9 +1,10 @@
 ﻿#include "dev-win-sc.h"
+#include "logger/logger.h"
 
 using namespace std;
 
 int main()
 {
-    std::cout << "Hello, World!";
+    logger << "Hello, world!";
     return 0;
 }

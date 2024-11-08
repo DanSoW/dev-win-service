@@ -6,7 +6,7 @@
 #define APP_VERSION "debug"
 #define APP_PACKAGE "win-sc"
 #define DIR_SEPARATOR '\\'
-#define LOG_PATH "C:/Projects/Articles/dev-win-sc-base"
+#define LOG_PATH "C:/Projects/Articles/dev-win-service/dev-win-sc-base"
 #define MAX_LOG_SIZE 100
 
 #define FILE_NAME_LOG "dev_win_sc"
