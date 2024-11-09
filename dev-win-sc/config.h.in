@@ -1,0 +1,16 @@
+#ifndef CONFIG_H_IN
+#define CONFIG_H_IN
+ 
+#cmakedefine PROJECT_NAME "@PROJECT_NAME@"
+#cmakedefine APP_NAME "@APP_NAME@"
+#cmakedefine APP_VERSION "@APP_VERSION@"
+#cmakedefine APP_PACKAGE "@APP_PACKAGE@"
+#cmakedefine DIR_SEPARATOR @DIR_SEPARATOR@
+#cmakedefine LOG_PATH "@LOG_PATH@"
+#cmakedefine MAX_LOG_SIZE @MAX_LOG_SIZE@
+
+#cmakedefine FILE_NAME_LOG "@FILE_NAME_LOG@"
+
+#define DEBUG @DEBUG@
+ 
+#endif // CONFIG_H_IN
